@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cu113
+--extra-index-url https://download.pytorch.org/whl/cu102
+torch==1.11.0+cu113
+torchvision==0.12.0+cu113
+
+#torch==1.11.0+cu102
+#torchvision==0.12.0+cu102
+
+#torch==1.11.0+cpu
+#torchvision==0.12.0+cpu
+torchaudio==0.11.0
+pytorch-lightning==1.6.4
+segmentation-models-pytorch==0.2.1
+albumentations==1.2.0
+opencv-python==4.5.5.64
+opencv-python-headless==4.5.5.64
+numpy==1.23.1
+Pillow==9.2.0
+scikit-learn==1.1.1
+tqdm==4.64.0
